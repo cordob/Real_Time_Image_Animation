@@ -38,6 +38,11 @@ python image_animation.py -i m.png -c vox-adv-cpk.pth.tar -v h.mp4
 
 python image_animation.py -i nu.jpg -c vox-cpk.pth.tar -v f2.gif
 
+
+512 resolution
+
+python image_animation2.py -i nu.jpg -c vox-adv-cpk.pth.tar -v f3.mp4
+
 ```
 
 
