@@ -33,8 +33,10 @@ pip install opencv-python
 cuda install :  https://github.com/cordob/ubuntu/blob/main/cuda%20install
 
 
-영상 해상도 256*256 ,  512*512  딱 맞아야 
+
 ```
+영상 해상도 256*256 ,  512*512  딱 맞아야 
+
 python image_animation.py -i m.png -c vox-adv-cpk.pth.tar -v h.mp4
 
 python image_animation.py -i nu.jpg -c vox-cpk.pth.tar -v f2.gif
