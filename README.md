@@ -34,7 +34,9 @@ cuda install :  https://github.com/cordob/ubuntu/blob/main/cuda%20install
 
 
 ```
-python3 image_animation.py -i m.png -c vox-adv-cpk.pth.tar -v h.mp4
+python image_animation.py -i m.png -c vox-adv-cpk.pth.tar -v h.mp4
+
+python image_animation.py -i nu.jpg -c vox-cpk.pth.tar -v f2.gif
 
 ```
 
