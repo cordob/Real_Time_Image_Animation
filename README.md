@@ -21,7 +21,26 @@ The Project is real time application in opencv using first order model
 
 **Install modules** : ``` pip install -r requirements.txt ```
 
-**Install pytorch and torchvision** : ```pip install torch===1.0.0 torchvision===0.2.1 -f https://download.pytorch.org/whl/cu100/torch_stable.html ```
+pip install torch torchvision torchaudio
+
+python -m pip install -U scikit-image
+python -m pip install -U pandas 
+python -m pip install -U yaml
+pip install pyyaml
+
+pip install opencv-python
+
+cuda install :  https://github.com/cordob/ubuntu/blob/main/cuda%20install
+
+
+```
+python3 image_animation.py -i m.png -c vox-adv-cpk.pth.tar -v h.mp4
+
+```
+
+
+
+
 
 ## Step 4 : Download cascade file ,weights and model and save in folder named extract
 
